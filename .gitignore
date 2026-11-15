@@ -1,0 +1,41 @@
+# macOS and Office temporary files
+.DS_Store
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python environments and build outputs
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+.mcp.json
+!.mcp.json.example
+.claude/settings.local.json
+
+# Editors and local workspace metadata
+.idea/
+.vscode/
+.threadrelink/
+.codex/
+.agents/
